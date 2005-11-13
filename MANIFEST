@@ -1,0 +1,11 @@
+Changes
+lib/Acme/LAUTER/DEUTSCHER.pm
+lib/PerlIO/via/LAUTER_DEUTSCHER.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/DECKUNG-VON-POD.t
+t/KOMPILIEREN.t
+t/NETZ/FUNKTIONALITAT.t
+t/POD-KORREKTHEIT.t

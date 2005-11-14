@@ -1,0 +1,36 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.50.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 7fd1daf575e9d6b375fe6c60c8f1fdf509eb812f .releaserc
+SHA1 a10a90520cea13d16fe4848e0b5ebd06c2c9084a Changes
+SHA1 d208d8302b389c22ab6b483fc0f084ef52da411f MANIFEST
+SHA1 b69a825c77123976ad586acbc046e9cfc45a8327 META.yml
+SHA1 9cad192c0312c1aa47fb36b91951a02ff15a3a75 Makefile.PL
+SHA1 a0945f98877565e8745e5566d0b8765779e32252 README
+SHA1 730b851a6c47ec1dd9d76d9b5895510c66d8aece lib/Acme/LAUTER/DEUTSCHER.pm
+SHA1 4895cedf3ed2cc7fae06c0c902c86169cd61ca34 lib/PerlIO/via/LAUTER_DEUTSCHER.pm
+SHA1 fba73d30aa3fbe2204e6aa9d54c04b4d608b09c6 t/0-signature.t
+SHA1 bcab255e1643b3a034b06123e89191e0c3e92210 t/DECKUNG-VON-POD.t
+SHA1 ac1af4bfd35a4ca7b7e1249b8be0b6e4ad5e57e6 t/KOMPILIEREN.t
+SHA1 766bf29864ffe055e2cdfe6f64348c0940ddf1c7 t/NETZ/FUNKTIONALITAT.t
+SHA1 e9c6a5881fc60173fbc8d479c1afd2ce3b43bef1 t/POD-KORREKTHEIT.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.1 (GNU/Linux)
+
+iD8DBQFDd/KIL3e/8OaAfH4RAh+RAKCEtf3gLfCXOf6Y42IcIlxPr8nHmQCfT0lH
+ZfwIcz2rj10NIg4xnRLqkX8=
+=Rbfe
+-----END PGP SIGNATURE-----

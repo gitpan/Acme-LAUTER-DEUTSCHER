@@ -2,10 +2,15 @@
 use strict;
 use warnings;
 
-use Test::More tests => 2;
+use Test::More;
 eval "use Test::Pod::Coverage 0.08";
-plan skip_all => "Test::Pod::Coverage 0.08 required for testing POD coverage"
-    if $@;
+if ($@) {
+    plan skip_all =>
+        "Test::Pod::Coverage 0.08 required for testing POD coverage";
+}
+else {
+    plan tests => 2;
+}
 
 pod_coverage_ok('Acme::LAUTER::DEUTSCHER');
 pod_coverage_ok( 'PerlIO::via::LAUTER_DEUTSCHER',
